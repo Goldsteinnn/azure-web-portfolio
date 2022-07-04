@@ -14,7 +14,7 @@ namespace Company.Function
 {
     public static class GetResumeCounter
     {
-        // 
+        
         [FunctionName("GetResumeCounter")]
         public static HttpResponseMessage Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
